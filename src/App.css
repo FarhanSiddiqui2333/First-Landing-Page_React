@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+
+.card_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 80px;
+    width: 100%;
+}
+
+.card_section div div span {
+    border-radius: 3px;
+    text-align: center;
+    place-items: center;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+.card_section div {
+    padding: 15px;
+    width: 35%;
+    height: auto;
+    position: relative;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: all 0.25;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.74);
+}
+
+.card_section div:hover {
+    border: 2px solid white;
+}
+
+.card_section div div {
+    position: absolute;
+    width: auto;
+    right: 4%;
+    top: 5%;
+    text-align: right;
+    place-items: right;
+}
+
+.card_section div:nth-child(1) {
+    border-bottom-left-radius: 0px;
+}
+
+.card_section div:nth-child(2) {
+    border-bottom-right-radius: 0px;
+}
+
+.card_section div h2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.card_section div p {
+    line-height: 18px;
+    margin-bottom: 50px;
+    font-size: small;
+}
+
+.card_section div button {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    border: 2px solid rgb(22, 26, 49);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.opt_sec {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.opt_sec div {
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.644);
+    transition: all 0.25s;
+    border: 2px solid transparent;
+}
+
+.opt_sec div h3 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+.opt_sec div p {
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    translate: 0% -50%;
+}
+
+.opt_sec div .detail {
+    position: absolute;
+    bottom: 15%;
+}
+
+.opt_sec div .icon {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+.opt_sec div:hover {
+    border: 2px solid white;
+    scale: 1.02;
+}
+
+/*Footer Section*/
+.foot {
+    border-top: 1px solid grey;
+}
+
+.foot .feedback {
+    padding: 40px;
+    gap: 40px;
+    border-bottom: 1px grey solid;
+}
+
+.foot .feedback div {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.foot .feedback div textarea {
+    height: 250px;
+    width: 400px;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(95, 95, 95);
+    outline: none;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+
+.foot .feedback div textarea:focus {
+    border-color: white;
+    background-color: transparent;
+}
+
+.foot .feedback div h4 {
+    font-size: 45px;
+    font-weight: 900;
+    padding: 40px;
+    text-align: center;
+}
+
+.foot .footer_sec div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
+}
+
+.foot .footer_sec div:nth-child(1) {
+    padding: 40px;
+}
+
+.foot .footer_sec div:nth-child(2) {
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+}
+
+.foot .footer_sec ul .li_head {
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+form {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+}
+
+form label input,
+form label select {
+    height: 40px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+form label {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+form label select {
+    color: black;
+    text-align: center;
+}
+
+form #btn {
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+}
+
+.page_bg {
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    place-content: center;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+form div label {
+    gap: 5px;
+}
+
+form .selec {
+    flex-direction: column;
+}
+
+form .selec h3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}

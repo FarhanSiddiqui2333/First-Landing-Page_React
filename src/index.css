@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .links_effecet{
+        @apply transition-all h-max w-max border-b-2 border-b-transparent relative hover:text-slate-700 scale-90 cursor-pointer hover:border-b-2 hover:border-slate-700
+    }
+}
