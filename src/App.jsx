@@ -5,11 +5,15 @@ import Opt_card from '../component/Opt_card'
 import HeaderSec from './HeaderSec'
 import FooterSection from './FooterSection'
 
+//Set for Routing
+
 function App() {
     return (
 
         <div className="body w-full h-screen">
+            
             <HeaderSec />
+
             <div className="hero w-full h-full bg-slate-900 pt-10">
                 <div className="txt_content w-4/6 h-auto text-white place-items-center place-self-center translate-y-1/3 pt-10 mt-10">
                     <img src={bookImg} alt="" className="h-44 -translate-x-4 absolute" />
