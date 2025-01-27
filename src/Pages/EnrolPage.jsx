@@ -5,7 +5,9 @@ import FooterSection from '../component/FooterSectiobn'
 export default function EnrolPage() {
     return (
         <div className='page_bg bg-slate-900'>
+            
             <HeaderSec />
+            
             <form>
                 <label>
                     <input type="text" placeholder='Enter The Name of Candidate' />
@@ -71,7 +73,9 @@ export default function EnrolPage() {
                 </div>
                 <input type="submit" id="btn" className='bg-slate-400 text-slate-900 py-2' value="Enrol Now" />
             </form>
+            
             <FooterSection />
+            
         </div>
     )
 }
